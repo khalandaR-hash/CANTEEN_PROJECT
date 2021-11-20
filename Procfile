@@ -1,1 +1,3 @@
-web: gunicorn CANTEEN_PROJECT_MANAGMENT --log-file -
+
+
+web: gunicorn CANTEEN_PROJECT_MANAGMENT.wsgi
