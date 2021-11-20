@@ -1,1 +1,1 @@
-web: gunicorn CANTEEN_PROJECT_MANAGMENT:app --preload
+web: gunicorn CANTEEN_PROJECT_MANAGMENT --log-file -
